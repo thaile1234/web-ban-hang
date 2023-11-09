@@ -1,0 +1,588 @@
+.banner-desktop{
+  
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 117px;
+    padding: 0 15px;
+    height: 80px;
+    
+}
+.banner-bg{
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    
+}
+body{
+    margin: 0  !important;
+    padding: 0  !important;
+}
+.login{
+        color: rgba(255,255,255,0.8);
+        font-size: 12.8px;
+        font-family: 'Roboto', sans-serif;    
+        font-weight: 900;
+        padding: 10px 0;
+}
+.login:hover{
+    color: white;
+    cursor: pointer;
+}
+.logo-mona{
+    margin: 0 25px;
+    padding: 10px 0;
+    width: 150px;
+}
+.img-logo{
+    width: 100%;
+}
+.logo-mona:hover{
+    cursor: pointer;
+}
+.serach{
+    display: flex;
+    padding: 10px 0;
+}
+.search-icon{
+    margin-right: 10px;
+    color: rgba(255,255,255,0.8);
+}
+.text-store{
+    margin-top: 6px;
+    font-size: 12.8px;
+        font-family: 'Roboto', sans-serif;    
+        font-weight: 900;
+        color: rgba(255,255,255,0.8);
+}
+.phan2{
+  width: 100%;
+  position: fixed;
+  top: 80px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dcdcdc;
+    color: black;
+    font-size: 14.4px;
+    font-family: 'Roboto', sans-serif;   
+    font-weight: 900; 
+    height:54px ;
+    z-index: 9;
+}
+.phan2 div{
+    padding: 15px 22px;
+    z-index: 4;
+}
+.nu{
+    display: flex;
+}
+.nam{
+    display: flex;
+}
+.nu {
+    position: relative;
+  }
+  .hover-nu {
+    width: 275px;
+    background: white!important;
+    color: rgb(157, 153, 153);
+    position: absolute;
+    padding: 0 !important;
+    top: 55.5px;
+    left: 0;
+    display: none;
+    /* opacity: 0.5; */
+    border: 3px solid wheat;
+  }
+  .nu:hover {
+    color:none !important;
+    background-color: #ccc !important;
+  }
+  .nu:hover .hover-nu {
+    display: block;
+  }
+  .phan2> div:hover{
+    border-bottom: solid 3px #c30005 !important;
+    cursor: pointer;
+  }
+  .hover-nu div{
+    border-bottom:1px solid wheat ;
+  }
+  .hover-nu div:hover{
+    color: red;
+    background-color: antiquewhite;
+  }
+  .nam {
+    position: relative;
+  }
+  .hover-nam {
+    width: 275px;
+    background: white!important;
+    color: rgb(157, 153, 153);
+    position: absolute;
+    padding: 0 !important;
+    top: 55.5px;
+    left: 0;
+    display: none;
+    /* opacity: 0.5; */
+    border: 3px solid wheat;
+  }
+  .nam:hover {
+    color:none !important;
+    background-color: #ccc !important;
+  }
+  .nam:hover .hover-nam {
+    display: block;
+  }
+  .phan2> div:hover{
+    border-bottom: solid 3px #c30005 !important;
+    cursor: pointer;
+  }
+  .hover-nam div{
+    border-bottom:1px solid wheat ;
+  }
+  .hover-nam div:hover{
+    color: red;
+    background-color: antiquewhite;
+  }
+.img3{
+    width: 1210px;
+    position: relative;
+    left: 132px;
+    top: 170px !important;
+}
+.img123{
+    width: 100%;
+}
+.img3giay{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 90px 0px;
+  position: relative;
+  top: 170px;
+}
+.banner-giay1, .banner-giay2,.banner-giay3 {
+  margin-left: 121px;
+  
+}
+.giay1,.giay2,.giay3{
+  padding: 10px;
+  position: relative;
+}
+.giay1:hover{
+  border: 1px solid black;
+
+}
+.giay2:hover{
+  border: 1px solid black;
+  
+}
+.giay3:hover{
+  border: 1px solid black;
+  
+}
+.xemsp{
+  position: absolute;
+  background-color: black;
+  color: white;
+  width: 120px;
+  padding: 7px;
+  top :190px;
+  left: 155px;
+  transition: transform .2s;
+  text-align: center;
+}
+.xemsp:hover{
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+  cursor: pointer;
+}
+.xemsp{
+  display: none;
+}
+.giay1:hover .xemsp{
+  display: block;
+  
+}
+.giay2:hover .xemsp{
+  display: block;
+}.giay3:hover .xemsp{
+  display: block;
+}
+.sp3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom:3px solid black ;
+  margin: -15px 70px;
+  position: relative;
+  top: 150px;
+}
+.sp01,.sp02,.sp03{
+ padding: 10px 20px;
+ font-size: 16px;
+ font-family: 'Roboto', sans-serif; 
+ font-weight: 900;  
+ 
+}
+.sp01:hover{
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.sp02:hover{
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.sp03:hover{
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.red{
+ position: relative;
+  top: 150px;
+  height: 360px;
+  margin-top: 100px;
+
+}
+.wommen01{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wommen01 div{
+  width: 277px;
+  padding: 0 15px;
+}
+.wommen01 div img{
+  width: 100%;
+}
+.wommen01 div p{
+  text-align: center;
+  padding-top: 5px;
+  font-family: 'Roboto', sans-serif; 
+  font-size: 14px;
+  color: #334862;
+}
+.p1{
+  text-align: center;
+  margin-left: -20px;
+  color: #c30005;
+  font-family: 'Roboto', sans-serif; 
+  font-size: 14px;
+}
+.women001{
+  height: 270px;
+  position: relative;
+}
+.themvaogio{
+  position: absolute;
+  left: 89px;
+  background-color: #c30005;
+  color: white;
+  text-align: center;
+  padding: 5px !important;
+  width: 90px !important;  
+  display: none;
+  transition: transform .2s;
+
+}
+.themvaogio:hover{
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2); 
+  cursor: pointer;
+}
+.women001:hover .themvaogio{
+  display: block;
+}
+.aaaa{
+  background-color: white;
+}
+.text-phukienkhac{
+  position: relative;
+  top: 170px;
+  /* left: 100px; */
+
+}
+.text-phukienkhac div{
+text-align: center;
+border-bottom: 3px solid black;
+margin: 0 114px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+.img-phukien{
+  position: relative;
+  top:200px;
+}
+.xemtatca{
+  width: 120px;
+  color: rgba(102,102,102,0.85) !important;
+  border: rgba(102,102,102,0.85) solid 1px;
+  text-align: center;
+  margin: auto;
+  padding: 6px;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  margin-top: 10px;
+  padding-bottom:3px ;
+}
+.xemtatca:hover{
+  background-color: black;
+  color: white !important;
+  cursor: pointer;
+}
+.bg-max{
+  position: relative;
+  top: 300px;
+  width: 1200px;
+  height: 500px;
+  left: 145px;
+}
+.sp-danhgia{
+  position: relative;
+  top:240px;
+}
+.img-spdg{
+  position: relative;
+  top: 480px;
+}
+.footer{
+  position: relative;
+  top: 530px;
+  /* border-bottom:3px solid white ; */
+}
+.footer{
+  display: flex;
+  justify-content: center;
+  color: #a4a4a4;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    background-color:rgb(22, 21, 21); 
+}
+.address,.mail,.phone,.chat{
+  display: flex;
+}
+.ft-gioithieu,.ft-diachi,.ft-menu,.ft-mxh{
+  padding: 0 12px 30px;
+  margin-top: 70px;
+  height: 300px;
+  
+
+}
+.ft-chung{
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+.ft-red{
+  border-bottom: 3.5px solid red ;
+  width: 40px;
+  margin: 16px 0;
+}
+.text-add,.text-phone,.text-mail,.text-chat{
+  padding: 6px 0px 0px 10px;
+}
+.icon-map{
+  padding-top: 10px;
+}
+.text-gt{
+  padding-top: 6px;
+}
+.ft-menu1,.ft-menu2{
+  display: flex;
+}
+.ft-menu3{
+  padding-left: 90px;
+}
+.ft-menu3,.ft-menu31{
+  padding-bottom: 20px;
+  padding-top: 6px;
+}
+.white-ngang{ 
+  
+  background-color:rgb(22, 21, 21);
+  height: 100px;
+  position: relative;
+  top: 530px;
+}
+.footer-end{
+  border-top:2px solid white ;
+  margin: 0 145px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+}
+.dki-ntt{
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  text-align: start;
+}
+.input-mail{
+  display: flex;
+}
+.input-text{
+  width: 272px;
+  height: 40px;
+  padding: 0 10px;
+  border-radius: 3px 0 0 3px;
+}
+.input-dki{
+  width: 94px;
+  height: 40px;
+  padding: 0px 16px;
+  color: white;
+ background-color: red;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 10px;
+  border-radius: 0 3px 3px 0;
+  margin-top: 0.8px;
+}
+.input-dki:hover{
+  background-color: #c30005;
+  cursor: pointer;
+}
+.banquyen{
+  position: relative;
+  top:15px ;
+  background-color: black;
+  text-align: center;
+  color: #a4a4a4;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px 0 15px;
+}
+.tacgiaT:hover{
+color: white;
+cursor:pointer;
+}
+.banner-repon{
+  display: none;
+}
+@media screen and (max-width: 850px){
+   .banner-desktop{
+    display: none;
+   }
+   .banner-repon{
+    display: block;
+   }
+    
+}
+.img3-rp{
+  display: none;
+}
+@media screen and (max-width: 1366px) {
+  .img3{
+    display: none;
+  }
+  .img3-rp{
+    display: block;
+  }
+}
+@media screen and (max-width:850px){
+  .img3-rp1{
+    width: 100%;
+   position: relative;
+    top: -55px;
+  }
+}
+.banner-repon1{
+  
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+  height: 80px;
+}
+@media screen and (max-width:850px){
+  .phan2{
+    display: none;
+  }
+}
+.img3-rp{
+  width: 100%;
+  position: relative;
+  left: 10px;
+  top:170px !important;
+}
+@media screen and (max-width:850px){
+  .img3giay{
+    display: flex;
+    flex-wrap: wrap;
+  }}
+
+  .sp3-repon{
+    display: none;
+
+  }
+  @media screen and (max-width:850px){
+    .sp3{
+      display: none;
+    }
+    .sp3-repon{
+      display: block;
+    }
+    }
+    .sp3-repon1{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      border-bottom:3px solid black ;
+      margin: -15px 70px;
+      position: relative;
+      top: 150px;
+    }
+    .sp001{
+      display: flex;
+      
+    }
+    .sp010,.sp020,.sp030{
+      padding: 7px 7px;
+      font-size: 16px;
+      font-family: 'Roboto', sans-serif; 
+      font-weight: 900;   
+      
+     }
+     @media screen and (max-width:850px){
+      .red{
+        width: 100%;
+      }
+      }
+      .sp010:hover{
+        background-color: black;
+        color: white;
+        cursor: pointer;
+      }
+      .sp020:hover{
+        background-color: black;
+        color: white;
+        cursor: pointer;
+      }
+      .sp030:hover{
+        background-color: black;
+        color: white;
+        cursor: pointer;
+      }
+   
+
